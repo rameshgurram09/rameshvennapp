@@ -84,9 +84,9 @@ public class Popup {
 			robot.keyRelease(KeyEvent.VK_CONTROL);
 		}
 	}
-}
+
 		//Thread.sleep(5000);		
-	     driver.findElement(By.linkText("Registration")).click();
+	     //driver.findElement(By.linkText("Registration")).click();
 	 
 
 		

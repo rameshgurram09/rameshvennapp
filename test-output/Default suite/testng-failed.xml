@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ALERTS.Popup">
+      <class name="ALERTS.pop">
         <methods>
+          <include name="Login"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="Login"/>
         </methods>
-      </class> <!-- ALERTS.Popup -->
+      </class> <!-- ALERTS.pop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
